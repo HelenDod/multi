@@ -152,9 +152,15 @@ for url in links:
 ```
 
 * Замерьте время синхронной проверки ссылок.
+* ![Снимок экрана (835)](https://user-images.githubusercontent.com/90499063/144234010-1f458a12-8c3c-4961-8364-4248a8d2f290.png)
+* ![Снимок](https://user-images.githubusercontent.com/90499063/144234197-d9e2bba9-3bd0-4ba0-97a9-8a08b273a1c9.JPG)
 * Перепишите код, используя `ThreadPoolExecutor`. 
 * Изменяйте количество воркеров: 5, 10, 100.
+* ![1](https://user-images.githubusercontent.com/90499063/144234456-79ee7005-2ecf-4f3e-9786-4db8052574e2.JPG)
+* ![2](https://user-images.githubusercontent.com/90499063/144234402-ee1c0df0-9d25-4bf9-9fb5-18003943510c.JPG)
+* ![3](https://user-images.githubusercontent.com/90499063/144234371-60f6e1ef-850c-428b-8b08-3cfb3bd1fc62.JPG)
 * Во время работы посмотрите с использованием стандартных утилит вашей OC загрузку памяти, процессора, сети, время работы. Зависят ли они от количества воркеров и как?
+Повышение нагрузки на CPU-Bound, ЦП и память.
 
 ## CPU-bound. Генерируем монетки
 
